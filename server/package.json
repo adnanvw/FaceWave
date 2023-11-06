@@ -1,0 +1,24 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "server side for FaceWave(video calling app)",
+  "main": "index.ts",
+  "type": "commonjs",
+  "scripts": {
+      "start": "nodemon index.ts"
+  },
+  "author": {
+    "name": "Adnan"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "nodemon": "^2.0.22",
+    "socket.io": "^4.6.1"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  }
+}
